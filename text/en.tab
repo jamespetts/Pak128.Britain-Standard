@@ -9,7 +9,7 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#                          James Petts (jamespetts)                            #
+#			   James Petts (jamespetts)			       #
 #                                                                              #
 ################################################################################
 #____________________________________bridge_____________________________________
@@ -336,13 +336,13 @@ CoalMine1950
 Colliery
 CoalMine1970
 Colliery
-CoalPowerStation1910
+CoalPowerStation1910kraftwerk
 Coal-fired Power Station
-CoalPowerStation1920
+CoalPowerStation1920kraftwerk
 Coal-fired Power Station
-CoalPowerStation1955
+CoalPowerStation1955kraftwerk
 Coal-fired Power Station
-CoalPowerStation1970
+CoalPowerStation1970kraftwerk
 Coal-fired Power Station
 CoalYard1750
 Coal Merchant
@@ -478,9 +478,9 @@ Newsagent1950
 Newsagent
 Newsagent1970
 Newsagent
-OilPowerStation1950
+OilPowerStation1950kraftwerk
 Oil-fired Power Station
-OilPowerStation1970
+OilPowerStation1970kraftwerk
 Oil-fired Power Station
 OilRefinery1910
 Oil Refinery
@@ -617,7 +617,7 @@ planks
 Bucher
 books
 canned_food
-canned food
+packaged food
 Cement
 cement
 Chemicals
@@ -968,6 +968,8 @@ BR-370Restaurant(IC)
 BR Class 370 APT (restaurant)
 BR-220Rear(Virgin)
 BR Class 220 "Voyager" (rear)
+BR-221Rear(Virgin)
+BR Class 221 "Super Voyager" (rear)
 BR-370Buffet(IC)
 BR Class 370 APT (buffet)
 LMR-4Wheel-Open-Coach
@@ -1006,6 +1008,8 @@ BR-251FirstParlour
 BR Class 251 "Blue Pullman" (1st class parlour)
 BR-220Front(Virgin)
 BR Class 220 "Voyager"
+BR-221Front(Virgin)
+BR Class 221 "Super Voyager"
 GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
 SR-Bulleid-Express-Brake(Green)
@@ -1076,6 +1080,12 @@ BR-180Rear(FGW)
 BR Class 180 "Adelante" (rear)
 BR-220Middle(Virgin)
 BR Class 220 "Voyager" (middle)
+BR-220Middle-shop(Virgin)
+BR Class 220 "Voyager" (middle with shop)
+BR-221Middle(Virgin)
+BR Class 221 "Super Voyager" (middle)
+BR-221Middle-shop(Virgin)
+BR Class 221 "Super Voyager" (middle with shop)
 BR-142Front(Regional)
 BR Class 142 "Pacer" DMU
 BR-142Rear(Regional)
@@ -1371,9 +1381,9 @@ LNER Class P2 2-8-2
 LNER-P2-Tender(Green)
 LNER Class P2 2-8-2 (tender)
 LMS-Stanier-7P(Maroon)
-LMS Class 7P "Princess Coronation" 4-6-2
+LMS Class 8P "Princess Coronation" 4-6-2
 LMS-Stanier-7P-Tender(Maroon)
-LMS Class 7P "Princess Coronation" 4-6-2 (tender)
+LMS Class 8P "Princess Coronation" 4-6-2 (tender)
 NER-ClassES1(Green)
 NER Class ES1 Bo-Bo
 NER-ClassEF1(Green)
@@ -1475,9 +1485,9 @@ LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender(Maroon)
 LMS Class 5XP "Patriot" 4-6-0 (tender)
 LMS-Princess-Royal(Maroon)
-LMS Class 8P "Princess Royal"
+LMS Class 7P "Princess Royal"
 LMS-Princess-Royal-Tender(Maroon)
-LMS Class 8P "Princess Royal" (tender)
+LMS Class 7P "Princess Royal" (tender)
 LNER-B17(Green)
 LNER Class B17 "Footballer" 4-6-0
 LNER-B17-Tender(Green)
@@ -1670,6 +1680,12 @@ LNER-Gresley-Express-Mail(Teak)
 LNER mail coach (teak)
 BR-Mk1-POS(RoyalMail)
 BR Mk. 1 Mail coach
+BR-Mk2a-TSO(Blue-Grey)
+BR Mk. 2a Standard Open
+BR-Mk2a-RMB(Blue-Grey)
+BR Mk. 2a Miniature Buffet
+BR-Mk2a-BSO(Blue-Grey)
+BR Mk. 2a Standard Open (brake)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -1854,6 +1870,206 @@ RoutemasterTrolleybus
 Routemaster (trolleybus)
 DennisDominatorTrolley
 Dennis Dominator (trolleybus)
+CartBulk
+Cart (bulk goods)
+CartLong
+Cart (long goods)
+CartPiece
+Cart (piece goods)
+CartCool
+Cart (cooled goods)
+CartMail
+Cart (mail)
+WagonBulk
+Wagon (bulk goods)
+WagonLong
+Wagon (long goods)
+WagonPiece
+Wagon (piece goods)
+WagonCool
+Wagon (cooled goods)
+StageWagonPiece
+Stage Wagon (piece goods)
+StageWagonCool
+Stage Wagon (cooled goods)
+StageWagonMail
+Stage Wagon (mail)
+EagleTrailerBulk
+Eagle Trailer (bulk goods)
+EagleTrailerLong
+Eagle Trailer (long goods)
+EagleTrailerPiece
+Eagle Trailer (piece goods)
+EagleTrailerCool
+Eagle Trailer (cooled goods)
+EagleTrailerLivestock
+Eagle Trailer (livestock)
+EagleTrailerFluid
+Eagle Trailer (bulk fluids)
+LivestockDrover
+Livestock Drover
+MailBike
+Postal Bicycle
+LightRoadLocomotive
+Light Traction Engine
+HeavyRoadLocomotive
+Heavy Traction Engine
+FodenCompoundBulk
+Foden Compound (bulk goods)
+FodenCompoundLong
+Foden Compound (long goods)
+FodenCompoundPiece
+Foden Compound (piece goods)
+FodenCompoundCool
+Foden Compound (cool goods)
+FodenCompoundLivestock
+Foden Compound (livestock)
+SentinelDGBulk
+Sentinel DG (bulk goods)
+SentinelDGLong
+Sentinel DG (long goods)
+SentinelDGPiece
+Sentinel DG (piece goods)
+SentinelDGCool
+Sentinel DG (cool goods)
+SentinelDGLivestock
+Sentinel DG (livestock)
+SentinelSBulk
+Sentinel S (bulk goods)
+SentinelSLong
+Sentinel S (long goods)
+SentinelSPiece
+Sentinel S (piece goods)
+SentinelSCool
+Sentinel S (cool goods)
+SentinelSLivestock
+Sentinel S (livestock)
+SentinelStandardBulk
+Sentinel Standard (bulk goods)
+SentinelStandardLong
+Sentinel Standard (long goods)
+SentinelStandardPiece
+Sentinel Standard (piece goods)
+SentinelStandardCool
+Sentinel Standard (cool goods)
+SentinelStandardLivestock
+Sentinel Standard (livestock)
+ThornycroftWagonBulk
+Thornycroft Wagon (bulk goods)
+ThornycroftWagonLong
+Thornycroft Wagon (long goods)
+ThornycroftWagonPiece
+Thornycroft Wagon (piece goods)
+ThornycroftWagonCool
+Thornycroft Wagon (cool goods)
+ThornycroftWagonLivestock
+Thornycroft Wagon (livestock)
+ThornycroftSteamVanPiece
+Thornycroft Steam Van (piece goods)
+ThornycroftSteamVanCool
+Thornycroft Steam Van (cool goods)
+ThornycroftSteamVanMail
+Thornycroft Steam Van (mail)
+YorkshireSteamTank
+Yorkshire Steam Tank (bulk fluids)
+MailCoach
+Mail Coach
+McNamaraDennisVanPost
+McNamara Dennis Van (mail)
+AustinSevenPost
+Austin Seven Van (mail)
+AustinSevenCool
+Austin Seven Van (cool goods)
+AustinSevenPiece
+Austin Seven Van (piece goods)
+MorrisEightPost
+Morris Eight Van (mail)
+MorrisEightCool
+Morris Eight Van (cool goods)
+MorrisEightPiece
+Morris Eight Van (piece goods)
+ThornycroftBTPost
+Thornycroft BT (mail)
+ThornycroftBTBulk
+Thornycroft BT (bulk goods)
+ThornycroftBTPiece
+Thornycroft BT (piece goods)
+ThornycroftBTCool
+Thornycroft BT (cool goods)
+ThornycroftBTLong
+Thornycroft BT (long goods)
+ThornycroftBTCar
+Thornycroft BT (cars)
+ThornycroftBTLivestock
+Thornycroft BT (livestock)
+ThornycroftQArticTractor
+Thornycroft Q (articulated)
+ThornycroftQArticFluid
+Thornycroft Q Trailer (bulk fluids)
+ThornycroftQArticBulk
+Thornycroft Q Trailer (bulk goods)
+ThornycroftQArticPiece
+Thornycroft Q Trailer (piece goods)
+ThornycroftQArticCool
+Thornycroft Q Trailer (cool goods)
+ThornycroftQArticLong
+Thornycroft Q Trailer (long goods)
+ThornycroftQArticCar
+Thornycroft Q Trailer (cars)
+ThornycroftQArticLivestock
+Thornycroft Q Trailer (livestock)
+ThornycroftAmazonTractor
+Thornycroft Amazon
+ThornycroftAmazonFluid
+Thornycroft Amazon Trailer (bulk fluids)
+ThornycroftAmazonBulk
+Thornycroft Amazon Trailer (bulk goods)
+ThornycroftAmazonPiece
+Thornycroft Amazon Trailer (piece goods)
+ThornycroftAmazonCool
+Thornycroft Amazon Trailer (cool goods)
+ThornycroftAmazonLong
+Thornycroft Amazon Trailer (long goods)
+ThornycroftAmazonCar
+Thornycroft Amazon Trailer (cars)
+ThornycroftAmazonLivestock
+Thornycroft Amazon (livestock)
+ThornycroftQRigidOil
+Thornycroft Q Rigid (bulk fluids)
+ThornycroftQRigidBulk
+Thornycroft Q Rigid (bulk goods)
+ThornycroftQRigidPiece
+Thornycroft Q Rigid (piece goods)
+ThornycroftQRigidCool
+Thornycroft Q Rigid (cool goods)
+ThornycroftQRigidLong
+Thornycroft Q Rigid (long goods)
+ThornycroftQRigidLivestock
+Thornycroft Q Rigid (livestock)
+ThornycroftQCFluid
+Thornycroft QC Rigid (bulk fluids)
+ThornycroftQCBulk
+Thornycroft QC Rigid (bulk goods)
+ThornycroftQCPiece
+Thornycroft QC Rigid (piece goods)
+ThornycroftQCCool
+Thornycroft QC Rigid (cool goods)
+ThornycroftQCLong
+Thornycroft QC Rigid (long goods)
+ThornycroftQCLivestock
+Thornycroft QC Rigid (livestock)
+ThornycroftStagFluid
+Thornycroft Stag Rigid (bulk fluids)
+ThornycroftStagBulk
+Thornycroft Stag Rigid (bulk goods)
+ThornycroftStagPiece
+Thornycroft Stag Rigid (piece goods)
+ThornycroftStagCool
+Thornycroft Stag Rigid (cool goods)
+ThornycroftStagLong
+Thornycroft Stag Rigid (long goods)
+ThornycroftStagLivestock
+Thornycroft Stag Rigid (livestock)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
@@ -2006,3 +2222,7 @@ Art Deco Terminal Building with Control Tower
 1950s Terminal Building
 TerminalModernBuilding
 Modern Terminal Building
+CoachStable
+Coaching stable
+AirHangarModern
+Aircraft hangar
