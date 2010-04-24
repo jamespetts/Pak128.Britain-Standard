@@ -9,21 +9,95 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#			   James Petts (jamespetts)			       #
+#			    James Petts (jamespetts)			       #
 #                                                                              #
 ################################################################################
+#____________________________________Stop Names_________________________________
+#____________________________________Stop Names_________________________________
+1center
+%s %s
+1extern
+%s Junction %s
+1nord
+%s north %s
+1nordost
+%s NE %s
+1nordwest
+%s NW %s
+1ost
+%s east %s
+1sued
+%s south %s
+1suedost
+%s SE %s
+1suedwest
+%s SW %s
+1west
+%s west %s
+2center
+%s Central %s
+2extern
+%s Road %s
+3center
+%s Victoria %s
+3extern
+%s County %s
+4center
+%s Exchange %s
+4extern
+%s Heights %s
+5center
+%s City %s
+5extern
+%s Rural %s
+6center
+%s Midland %s
+7center
+%s Piccadilly %s
+%s city %d %s
+%s City %d %s
+%s land %d %s
+%s County %d %s
+BF
+Railway Station
+H
+ 
+Dock
+Dock
+Airport
+Airport
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickViaduct
 Brick Railway Viaduct
+BrickViaduct175
+Brick Railway Viaduct
+BrickViaduct200
+Brick Railway Viaduct
+BrickViaduct225
+Brick Railway Viaduct
+BrickViaduct320
+Brick Railway Viaduct
 WoodenTrestle
 Wooden Trestle Rail Bridge 
+WoodTrestleRoad
+Wooden Trestle Road Bridge 
 BrickViaductRoad
-Brick Road Bridge
+Brick Road Bridge (tarmac)
+BrickViaductCobbles
+Brick Road Bridge (cobblestone)
 BrickAqueduct
 Brick Aqueduct
 PowerBridge
 High Voltage Transmission Line Bridge
+MasonryViaductRoad
+Masonry Road Bridge (tarmac)
+MasonryViaductCobbles
+Masonry Road Bridge (cobblestone)
+Concrete_Maglev_Bridge
+Concrete Maglev Bridge
+Economical_Concrete_Maglev_Bridge
+Lightweight Concrete Maglev Bridge
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
@@ -40,6 +114,10 @@ RoadTunnelConcrete
 Concrete Road Tunnel
 CanalTunnel
 Canal Tunnel
+MaglevTunnelConcrete
+Concrete Maglev Tunnel
+MaglevTunnelEco
+Lightweight Concrete Maglev Tunnel
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 DCRailCatenary
@@ -70,98 +148,170 @@ Crossing1
 Crossing
 #____________________________________city-buildings____________________________________
 #____________________________________city-buildings____________________________________
-KG_RES_1600_00
+RES_KG_1600_00_01
 House
 KG_RES_1930_00
 Bungalow
-KG_RES_1930_01
+RES_KG_1930_01_01
 Bungalow
-JH_RES_70_00
+RES_JH_1970_00_02
 Detatched House
-JH_RES_70_01
+RES_JH_1970_01_02
 Detatched House
-JH_RES_70_02
+RES_JH_1970_02_02
 Detatched House
-KG_RES_04_01
+RES_KG_1930_00_02
 Detatched House
-KG_RES_04_02
+RES_KG_1890_00_02
 Town House
-KG_RES_04_90-0
+RES_KG_1990_00_02
 Detatched House
-KG_RES_04_90-1
+RES_KG_1990_01_02
 Detatched House
-KG_RES_1700_00
+RES_KG_1700_00_02
 Terraced Houses
-KG_RES_1920_00
+RES_KG_1920_00_02
 Detatched House
-KG_RES_1960_04
+RES_KG_1960_04_03
 Semi-detatched Houses
-JH_RES_1750_00
+RES_JH_1750_00_04
 Town House
-KG_RES_00_16
+RES_KG_1880_00_04
 Semi-detached Cottages
-KG_RES_00_14
+RES_KG_1910_00_04
 Semi-detatched Town Houses
-KG_RES_1700_01
+RES_KG_1700_01_04
 Terraced Houses
-KG_RES_60_01
+RES_KG_1960_01_04
 Semi-detatched Houses
-KG_RES_80_00
+RES_KG_1980_00_04
 Semi-detatched Houses
-KG_RES_80_01
+RES_KG_1980_01_04
 Semi-detatched Houses
-KG_RES_1890-1
+RES_KG_1890_01_05
 Victorian Semi-detatched Houses
-KG_RES_00_13
+RES_KG_1870_00_06
 Victorian Semi-detatched Houses
-KG_RES_00_15
+RES_KG_1910_01_06
 Victorian Semi-detatched Town Houses
-KG_RES_1880_1
+RES_KG_1880_01_06
 Victorian Terraced Houses
-KG_RES_02_17
+RES_KG_1950_01_08
 Maisonettes
-KG_RES_60_02
+RES_KG_1960_02_08
 Semi-detatched Houses
-JH_RES_70_03
+RES_JH_1970_03_04
 Bungalows
-KG_RES_60_03
+RES_KG_1960_03_12
 Terraced Houses
-KG_RES_60_00
+RES_KG_1960_00_16
 Block of Flats
-KG_RES_00_17
+RES_KG_1950_00_24
 Block of Flats
-KG_RES_80_02
+RES_KG_1980_02_48
 Block of Flats
-KG_COM_00_16
+COM_KG_1870_00_06
 Freehouse Pub
-KG_COM_1880_2
+COM_KG_1880_02_06
 Victorian Terraced Shops
-KG_COM_00_18
+COM_KG_1960_00_08
 Office Block
-KG_COM_1880_1
+COM_KG_1880_01_08
 Victorian Terraced Shops
-KG_COM_1970_0
+COM_KG_1970_00_08
 Office Unit
-KG_COM_00_15
+COM_KG_1910_00_10
 Offices
-KG_COM_1880_0
+COM_KG_1880_00_10
 Victorian Corner Shop
-KG_COM_00_17
+COM_KG_1970_01_14
 Office Block
-KG_COM_00_19
+COM_KG_1980_00_16
 Shops & Offices
-JH_IND_60_00
+IND_JH_1960_00_02
 Sewerage Works
-JH_IND_80_00
+IND_JH_1980_00_03
 Warehouse
-JH_IND_1750_00
+IND_JH_1750_00_07
 Warehouse
-JH_IND_1860_00
+IND_JH_1860_00_06
 Small Factory
-JH_IND_1860_01
+IND_JH_1860_01_12
 Small Factory
-JH_IND_1860_00
+IND_JH_1860_00_10
 Gasometer
+RES_KG_1990_02_03
+Semi-detatched Houses
+IND_JH_1750_03_04
+Warehouse
+IND_WL_1950_00_04
+Car Park
+IND_JH_1750_02_06
+Warehouses
+JH_IND_1800_00
+Small Factory
+JH_IND_1800_01
+Small Factory
+IND_JH_1750_00_07
+Warehouses
+IND_JH_1850_00_07
+Warehouse
+IND_JH_1750_01_08
+Warehouses
+JH_COM_00_16A
+Offices
+JH_IND_1850_21
+Warehouse
+JH_COM_00_16B
+Offices
+COM_JH_1870_00_18
+Offices
+COM_JH_1870_01_20
+Offices
+COM_JH_1870_02_22
+Offices
+COM_JH_1870_03_25
+Offices
+COM_KG_1970_02_14
+Offices
+COM_KG_1970_03_14
+Offices
+COM_KG_1970_04_20
+Offices
+COM_KG_1970_05_35
+Offices
+COM_KG_1970_06_50
+Offices
+IND_JH_1850_01_15
+Warehouse
+IND_JH_1850_02_20
+Warehouse
+COM_A_1750_00_10
+Inn
+COM_A_1750_01_08
+Terraced Shops
+COM_A_1750_02_08
+Terraced Shops
+COM_A_1880_00_10
+Shops & Offices
+IND_JH_1900_00_05
+Electrical Substation
+IND_WL_1980_00_04
+Car Park
+RES_A_1750_00_08
+Terraced Town Houses
+RES_A_1750_01_08
+Terraced Houses
+RES_A_1880_00_15
+Tenements
+RES_A_1880_01_15
+Tenements
+RES_A_1750_01_08
+Terraced Houses
+RES_A_1750_02_03
+Cottage
+COM_A_1750_03_07
+Coaching Inn
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
@@ -186,8 +336,10 @@ Knight-Monument
 Monument of a Knight
 War-Memorial
 War Memorial
-Nelson-Column
+NelsonColumn2
 Nelson's Column
+Fountain
+Fountain
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -606,6 +758,16 @@ TextileMill1945
 Textile Mill
 TextileMill1975
 Textile Mill
+FishPort1750
+Fishing Port
+FishPort1840
+Fishing Port
+FishPort1910
+Fishing Port
+FishPort1945
+Fishing Port
+FishPort1975
+Fishing Port
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -702,6 +864,8 @@ newspaper
 newspapers
 cider
 cider
+FreshFish
+live fish
 #_____________________________________misc______________________________________
 #_____________________________________misc______________________________________
 PowerDest
@@ -724,6 +888,8 @@ CATEGORY_06
 woods
 CATEGORY_07
 farm products
+battery
+maglev
 #___________________________________way-signs____________________________________
 #___________________________________way-signs____________________________________
 traffic_light
@@ -776,6 +942,8 @@ PrivateRoad
 Private Road Sign
 ChooseSign
 Choose Sign
+airport_choose
+Choose Sign
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 EnglishOak
@@ -787,7 +955,7 @@ Norway spruce
 River0
 Stream (Not Navigable)
 River1
-Small River (Not Navigable)
+Small River (Navigable)
 River2
 River (Navigable)
 River3
@@ -1227,7 +1395,7 @@ BR Class 43 "HST 125" (rear)
 BR-Mk3-DVT(Intercity)
 BR Mk.3 DVT
 BR-Mk4-DVT(Intercity)
-BR-Mk.4 DVT
+BR Mk.4 DVT
 GWR-Gloucester-Parcel-Railcar
 GWR Gloucester Parcel Railcar
 RM-325Front(RM)
@@ -1619,9 +1787,9 @@ LSWR Third Carriage
 LNWR-1847-Mail
 LNWR 4-wheel mail coach
 CC-Clerestory-Parcel-Brake
-GWR Chocolate & cream clerestory parcel brake coach
+Chocolate & cream clerestory parcel brake coach
 CC-Clerestory-TPO
-GWR Chocolate & cream clerestory travelling post office
+Chocolate & cream clerestory travelling post office
 Teak-Clerestory-Parcel-Brake
 LNER clerestory parcel brake coach (teak)
 Teak-Clerestory-TPO
@@ -1661,9 +1829,13 @@ BR Mk. 1 Travelling Post Office
 CC-Clerestory-Mail
 GWR Chocolate & cream clerestory mail van
 Teak-Clerestory-Mail
-GNR Clerestory Mail Van (teak)
+Teak Clerestory Mail Van
+Teak-Clerestory-Dining
+Teak Clerestory Dining Car
 MR-Clerestory-Mail
 MR Clerestory Mail van
+MR-Clerestory-Dining
+MR Clerestory Dining Car
 BR-Mk1-BG(Crimson-Cream)
 BR Mk. 1 Gangwayed Brake
 BR-Mk1-BG(Maroon)
@@ -1686,6 +1858,44 @@ BR-Mk2a-RMB(Blue-Grey)
 BR Mk. 2a Miniature Buffet
 BR-Mk2a-BSO(Blue-Grey)
 BR Mk. 2a Standard Open (brake)
+GWR-Droplight-Dining(Mahogany)
+GWR Droplight Dining Car
+SR-Maunsell-Dining(Green)
+SR Maunsell Express Dining Car
+LMS-d1904-Dining
+LMS Dining Car
+BR-Mk3a-TRB
+BR Mk. 3a Restaurant Buffet
+BR-Mk3a-TO
+BR Mk. 3a Standard Open
+BR-442-Middle1(NSE)
+BR Class 442 (middle)
+BR-442-Middle2(NSE)
+BR Class 442 (middle)
+BR-442-Middle3(NSE)
+BR Class 442 (middle)
+BR-442-Front(NSE)
+BR Class 442
+BR-442-Rear(NSE)
+BR Class 442 (rear)
+BR-Mk1-BG(RoyalMail)
+BR Mk. 1 Gangwayed Brake
+BR-423-DTCL-Front
+BR Class 423 "4Vep" EMU
+BR-423-MBSO
+BR Class 423 "4Vep" EMU (MBSO)
+BR-423-TSO
+BR Class 423 "4Vep" EMU (TSO)
+BR-423-DTCL-Rear
+BR Class 423 "4Vep" EMU (Rear)
+SR-CC(Green)
+SR CC Electric
+SR-MerchantNavyRebuilt_4-6-2(Green)
+SR Merchant Navy 4-6-2 (Rebuilt)
+SR-WestCountry_4-6-2(Green)
+SR West Country 4-6-2
+SR-WestCountryRebuilt_4-6-2(Green)
+SR West Country 4-6-2 (Rebuilt)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -1998,7 +2208,7 @@ ThornycroftBTCool
 Thornycroft BT (cool goods)
 ThornycroftBTLong
 Thornycroft BT (long goods)
-ThornycroftBTCar
+ThornycroftBTCars
 Thornycroft BT (cars)
 ThornycroftBTLivestock
 Thornycroft BT (livestock)
@@ -2030,10 +2240,10 @@ ThornycroftAmazonCool
 Thornycroft Amazon Trailer (cool goods)
 ThornycroftAmazonLong
 Thornycroft Amazon Trailer (long goods)
-ThornycroftAmazonCar
+ThornycroftAmazonCars
 Thornycroft Amazon Trailer (cars)
 ThornycroftAmazonLivestock
-Thornycroft Amazon (livestock)
+Thornycroft Amazon Trailer (livestock)
 ThornycroftQRigidOil
 Thornycroft Q Rigid (bulk fluids)
 ThornycroftQRigidBulk
@@ -2046,6 +2256,8 @@ ThornycroftQRigidLong
 Thornycroft Q Rigid (long goods)
 ThornycroftQRigidLivestock
 Thornycroft Q Rigid (livestock)
+ThornycroftQRigidCars
+Thornycroft Q Rigid (cars)
 ThornycroftQCFluid
 Thornycroft QC Rigid (bulk fluids)
 ThornycroftQCBulk
@@ -2058,6 +2270,8 @@ ThornycroftQCLong
 Thornycroft QC Rigid (long goods)
 ThornycroftQCLivestock
 Thornycroft QC Rigid (livestock)
+ThornycroftQCCars
+Thornycroft QC Rigid (cars)
 ThornycroftStagFluid
 Thornycroft Stag Rigid (bulk fluids)
 ThornycroftStagBulk
@@ -2070,6 +2284,470 @@ ThornycroftStagLong
 Thornycroft Stag Rigid (long goods)
 ThornycroftStagLivestock
 Thornycroft Stag Rigid (livestock)
+ThornycroftStagCars
+Thornycroft Stag Rigid (cars)
+AustinMaestroPiece
+Austin Maestro Van (piece goods)
+AustinMaestroCool
+Austin Maestro Van (cool goods)
+AustinMaestroPost
+Austin Maestro Van (mail)
+AustinMorrisEAPiece
+Austin Maestro Van (piece goods)
+AustinMorrisEACool
+Austin Morris EA Van (cool goods)
+AustinMorrisEAPost
+Austin Morris EA Van (mail)
+DAFCFRigidBulk
+DAF CF Rigid (bulk goods)
+DAFCFRigidLong
+DAF CF Rigid (long goods)
+DAFCFRigidFluid
+DAF CF Rigid (bulk fluids)
+DAFLFBulk
+DAF LF (bulk goods)
+DAFLFLong
+DAF LF (long goods)
+DAFLFPiece
+DAF LF (piece goods)
+DAFLFCool
+DAF LF (cool goods)
+DAFLFLivestock
+DAF LF (livestock)
+DAFLFPost
+DAF LF (mail)
+FordEscortPiece
+Ford Escort Van (piece goods)
+FordEscortCool
+Ford Escort Van (cool goods)
+FordEscortPost
+Ford Escort Van (mail)
+FordTransitConnectPiece
+Ford Transit Connect Van (piece goods)
+FordTransitConnectCool
+Ford Transit Connect Van (cool goods)
+FordTransitConnectPost
+Ford Transit Connect Van (mail)
+FordTransitPiece
+Ford Transit Van (piece goods)
+FordTransitCool
+Ford Transit Van (cool goods)
+FordTransitPost
+Ford Transit Van (mail)
+LeylandDAF95Artic
+Leyland DAF 95 Artic
+LeylandDAF95ArticMail
+Leyland DAF 95 Artic (mail)
+DAFXFArtic
+DAF XF Artic
+DAFXFArticMail
+DAF XF Artic (mail)
+LargeArticTrailerBulk
+Large Artic Trailer (bulk goods)
+LargeArticTrailerLong
+Large Artic Trailer (long goods)
+LargeArticTrailerPiece
+Large Artic Trailer (piece goods)
+LargeArticTrailerCool
+Large Artic Trailer (cool goods)
+LargeArticTrailerLivestock
+Large Artic Trailer (livestock)
+LargeArticTrailerFluid
+Large Artic Trailer (bulk fluids)
+LargeArticTrailerCars
+Large Artic Trailer (cars)
+LargeArticTrailerMail
+Large Artic Trailer (mail)
+StandardArticTrailerBulk
+Standard Artic Trailer (bulk goods)
+StandardArticTrailerLong
+Standard Artic Trailer (long goods)
+StandardArticTrailerPiece
+Standard Artic Trailer (piece goods)
+StandardArticTrailerCool
+Standard Artic Trailer (cool goods)
+StandardArticTrailerLivestock
+Standard Artic Trailer (livestock)
+StandardArticTrailerFluid
+Standard Artic Trailer (bulk fluids)
+StandardArticTrailerCars
+Standard Artic Trailer (cars)
+StandardArticTrailerMail
+Standard Artic Trailer (mail)
+LeylandDAF200Piece
+Leyland DAF 200 (piece goods)
+LeylandDAF200Cool
+Leyland DAF 200 (cool goods)
+LeylandDAF200Post
+Leyland DAF 200 (mail)
+LeylandDAF65Bulk
+Leyland DAF 65 (bulk goods)
+LeylandDAF65Long
+Leyland DAF 65 (long goods)
+LeylandDAF65Piece
+Leyland DAF 65 (piece goods)
+LeylandDAF65Cool
+Leyland DAF 65 (cool goods)
+LeylandDAF65Livestock
+Leyland DAF 65 (livestock)
+LeylandDAF65Post
+Leyland DAF 65 (mail)
+LeylandDAF85RigidBulk
+Leyland DAF 85 Rigid (bulk goods)
+LeylandDAF85RigidLong
+Leyland DAF 85 Rigid (long goods)
+LeylandDAF85RigidFluid
+Leyland DAF 85 Rigid (bulk fluids)
+LeylandGBulk
+Leyland G (bulk goods)
+LeylandGLong
+Leyland G (long goods)
+LeylandGPiece
+Leyland G (piece goods)
+LeylandGCool
+Leyland G (cool goods)
+LeylandGLivestock
+Leyland G (livestock)
+LeylandGPost
+Leyland G (mail)
+LeylandRoadrunnerBulk
+Leyland Roadrunner (bulk goods)
+LeylandRoadrunnerLong
+Leyland Roadrunner (long goods)
+LeylandRoadrunnerPiece
+Leyland Roadrunner (piece goods)
+LeylandRoadrunnerCool
+Leyland Roadrunner (cool goods)
+LeylandRoadrunnerLivestock
+Leyland Roadrunner (livestock)
+LeylandRoadrunnerPost
+Leyland Roadrunner (mail)
+LeylandSherpaPiece
+Leyland Sherpa Van (piece goods)
+LeylandSherpaCool
+Leyland Sherpa Van (cool goods)
+LeylandSherpaPost
+Leyland Sherpa Van (mail)
+LeylandT45ConstructorBulk
+Leyland T45 Constructor (bulk goods)
+LeylandT45ConstructorLong
+Leyland T45 Constructor (long goods)
+LeylandT45ConstructorFluid
+Leyland T45 Constructor (fluid goods)
+MorrisFGBulk
+Morris FG (bulk goods)
+MorrisFGLong
+Morris FG (long goods)
+MorrisFGPiece
+Morris FG (piece goods)
+MorrisFGCool
+Morris FG (cool goods)
+MorrisFGLivestock
+Morris FG (livestock)
+MorrisFGPost
+Morris FG (mail)
+MorrisJ4Piece
+Morris J4 (piece goods)
+MorrisJ4Cool
+Morris J4 (cool goods)
+MorrisJ4Post
+Morris J4 (mail)
+MorrisLDPiece
+Morris LD (piece goods)
+MorrisLDCool
+Morris LD (cool goods)
+MorrisLDPost
+Morris LD (mail)
+MorrisMarinaPiece
+Morris Marina Van (piece goods)
+MorrisMarinaCool
+Morris Marina Van (cool goods)
+MorrisMarinaPost
+Morris Marina Van (mail)
+MorrisMinorPiece
+Morris Minor Van (piece goods)
+MorrisMinorCool
+Morris Minor Van (cool goods)
+MorrisMinorPost
+Morris Minor Van (mail)
+LeylandT45Roadtrain
+Leyland T45 Roadtrain
+LeylandT45RoadtrainMail
+Leyland T45 Roadtrain (mail)
+LeylandDAF85Artic
+Leyland DAF 85 Artic
+LeylandDAF85ArticMail
+Leyland DAF 85 Artic (mail)
+DAFCFArtic
+DAF CF Artic
+DAFCFArticMail
+DAF CF Artic (mail)
+LeylandCometBulk
+Leyland Comet (bulk goods)
+LeylandCometLong
+Leyland Comet (long goods)
+LeylandCometPiece
+Leyland Comet (piece goods)
+LeylandCometCool
+Leyland Comet (cool goods)
+LeylandCometLivestock
+Leyland Comet (livestock)
+LeylandCometFluid
+Leyland Comet (bulk fluids)
+LeylandCometCars
+Leyland Comet (cars)
+ScammellHighwayman
+Scammell Highwayman
+ScammellHandyman
+Scammell Handyman
+Scammell1955TrailerBulk
+Scammell 1955 Trailer (bulk goods)
+Scammell1955TrailerLong
+Scammell 1955 Trailer (long goods)
+Scammell1955TrailerPiece
+Scammell 1955 Trailer (piece goods)
+Scammell1955TrailerCool
+Scammell 1955 Trailer (cool goods)
+Scammell1955TrailerFluid
+Scammell 1955 Trailer (bulk fluids)
+Scammell1955TrailerCars
+Scammell 1955 Trailer (cars)
+Scammell1955TrailerLivestock
+Scammell 1955 Trailer (livestock)
+ScammellCrusader
+Scammell Crusader
+ScammellCrusaderTrailerBulk
+Scammell Crusader Trailer (bulk goods)
+ScammellCrusaderTrailerLong
+Scammell Crusader Trailer (long goods)
+ScammellCrusaderTrailerPiece
+Scammell Crusader Trailer (piece goods)
+ScammellCrusaderTrailerCool
+Scammell Crusader Trailer (cool goods)
+ScammellCrusaderTrailerLivestock
+Scammell Crusader Trailer (livestock)
+ScammellCrusaderTrailerFluid
+Scammell Crusader Trailer (bulk fluids)
+ScammellCrusaderTrailerCars
+Scammell Crusader Trailer (cars)
+ScammellScarab
+Scammell Scarab
+ScammellMechanicalHorse
+Scammell Mechanical Horse
+ScammellTownsman
+Scammell Townsman
+ScammellMechHorseTrailerLong
+Scammell Mechanical Horse Trailer (long goods)
+ScammellMechHorseTrailerPiece
+Scammell Mechanical Horse Trailer (piece goods)
+ScammellMechHorseTrailerCool
+Scammell Mechanical Horse Trailer (cool goods)
+ScammellMechHorseTrailerLivestock
+Scammell Mechanical Horse Trailer (livestock)
+ScammellMechHorseTrailerMail
+Scammell Mechanical Horse Trailer (mail)
+ScammellRoutemanBulk
+Scammell Routeman (bulk goods)
+ScammellRoutemanLong
+Scammell Routeman (long goods)
+ScammellRoutemanPiece
+Scammell Routeman (piece goods)
+ScammellRoutemanCool
+Scammell Routeman (cool goods)
+ScammellRoutemanLivestock
+Scammell Routeman (livestock)
+ScammellRoutemanFluid
+Scammell Routeman (bulk fluids)
+MaudslayVanBulk
+Maudslay Van (bulk goods)
+MaudslayVanPiece
+Maudslay Van (piece goods)
+MaudslayVanCool
+Maudslay Van (cool goods)
+MaudslayVanLong
+Maudslay Van (long goods)
+MaudslayVanPost
+Maudslay Van (mail)
+#____________________________________water-vehicle____________________________________
+#____________________________________water-vehicle____________________________________
+BoatHorsesDouble
+Pair of horses
+BoatHorsesSingle
+Single horse
+HorseBargeBulk
+Unpowered Barge (bulk goods)
+HorseBargeLong
+Unpowered Barge (long goods)
+HorseBargePiece
+Unpowered Barge (piece goods)
+HorseBargeCool
+Unpowered Barge (cool goods)
+NorfolkWherryPassenger
+Norfolk Wherry (passengers)
+ClydeSteamer
+Clyde Steamer
+NorfolkWherryMail
+Norfolk Wherry (mail)
+SeineNetterSteam
+Seine Netter
+SeineNetterDiesel
+Seine Netter
+SteamBargePiece
+Steam Barge (piece goods)
+DieselBargePiece
+Diesel Barge (piece goods)
+NorfolkWherryPiece
+Norfolk Wherry (piece goods)
+HumberKeelPiece
+Humber Keel (piece goods)
+ThamesSailingBargePiece
+Thames Sailing Barge (piece goods)
+ClanLineSteamerPiece
+Clan Line Cargo Steamer (piece goods)
+HandysizePiece
+Handysize Container Ship (piece goods)
+SteamBargeBulk
+Steam Barge (bulk goods)
+DieselBargeBulk
+Diesel Barge (bulk goods)
+NorfolkWherryBulk
+Norfolk Wherry (bulk goods)
+HumberKeelBulk
+Humber Keel (bulk goods)
+ThamesSailingBargeBulk
+Thames Sailing Barge (bulk goods)
+ClanLineSteamerBulk
+Clan Line Cargo Steamer (bulk goods)
+HandysizeBulk
+Handysize Dry Bulk Ship (bulk goods)
+SteamBargeCool
+Steam Barge (cool goods)
+DieselBargeCool
+Diesel Barge (cool goods)
+NorfolkWherryCool
+Norfolk Wherry (cool goods)
+HumberKeelCool
+Humber Keel (cool goods)
+ThamesSailingBargeCool
+Thames Sailing Barge (cool goods)
+ClanLineSteamerCool
+Clan Line Cargo Steamer (cool goods)
+HandysizeCool
+Handysize Container Ship (cool goods)
+SteamBargeLong
+Steam Barge (long goods)
+DieselBargeLong
+Diesel Barge (long goods)
+NorfolkWherryLong
+Norfolk Wherry (long goods)
+HumberKeelLong
+Humber Keel (long goods)
+ThamesSailingBargeLong
+Thames Sailing Barge (long goods)
+ClanLineSteamerLong
+Clan Line Cargo Steamer (long goods)
+HandysizeLong
+Handysize Container Ship (long goods)
+SteamBargeOil
+Steam Barge (bulk fluids)
+DieselBargeOil
+Diesel Barge (bulk fluids)
+ClanLineSteamerOil
+Clan Line Cargo Steamer (bulk fluids)
+HandysizeOil
+Handysize Tanker (bulk fluids)
+SchoonerBulk
+Schooner(bulk goods)
+SchoonerPiece
+Schooner (piece goods)
+SchoonerCool
+Schooner (cool goods)
+SchoonerLong
+Schooner (long goods)
+Dogger
+Dogger
+Fifie
+Fifie
+BrigBulk
+Brig (bulk goods)
+BrigPiece
+Brig (piece goods)
+BrigCool
+Brig (cool goods)
+BrigLong
+Brig (long goods)
+EastIndiamanBulk
+East Indiaman (bulk goods)
+EastIndiamanPiece
+East Indiaman (piece goods)
+EastIndiamanLong
+East Indiaman (long goods)
+BlackwallFrigateBulk
+Blackwall Frigate (bulk goods)
+BlackwallFrigatePiece
+Blackwall Frigate (piece goods)
+BlackwallFrigateLong
+Blackwall Frigate (long goods)
+ClipperBulk
+Clipper (bulk goods)
+ClipperPiece
+Clipper (piece goods)
+ClipperLong
+Clipper (long goods)
+WindjammerBulk
+Windjammer (bulk goods)
+WindjammerPiece
+Windjammer (piece goods)
+WindjammerLong
+Windjammer (long goods)
+WindjammerFluid
+Windjammer (bulk fluids)
+#____________________________________maglev-vehicle____________________________________
+#____________________________________maglev-vehicle____________________________________
+BR-M-Class9000
+RMU 9000 Class
+RMU-aerocab(front)
+RMU Aerocab
+RMU-aerocab(rear)
+RMU Aerocab
+RMUbox(cooled)
+RMU Box Car (cooled goods)
+RMUbox(piece)
+RMU Box Car (piece goods)
+RMUflat(cooled)
+RMU Flat Car (cooled goods)
+RMUflat(piece)
+RMU Flat Car (piece goods)
+BR-Ultra-450(front)
+Ultraspeed Class M10 "Zephyr"
+BR-Ultra-450(Buffet)
+Ultraspeed Class M10 "Zephyr" (middle buffet)
+BR-Ultra-450(Open)
+Ultraspeed Class M10 "Zephyr" (middle)
+BR-Ultra-450(rear)
+Ultraspeed Class M10 "Zephyr" (rear)
+BR-Ultra-Mail(front)
+Ultraspeed Class M21 "Hermes"
+BR-Ultra-Mail(Open)
+Ultraspeed Class M21 "Hermes" (middle)
+BR-Ultra-Mail(rear)
+Ultraspeed Class M21 "Hermes" (rear)
+BR-Ultra-520(front)
+Ultraspeed Class M20 "Olympian" 
+BR-Ultra-520(Open)
+Ultraspeed Class M20 "Olympian" (middle)
+BR-Ultra-520(Buffet)
+Ultraspeed Class M20 "Olympian" (middle buffet)
+BR-Ultra-520(rear)
+Ultraspeed Class M20 "Olympian" (rear)
+BR-Ultra-520DD(front)
+Ultraspeed Class M30 "Platinum Jubilee"
+BR-Ultra-520DD(Open)
+Ultraspeed Class M30 "Platinum Jubilee" (middle)
+BR-Ultra-520DD(Buffet)
+Ultraspeed Class M30 "Platinum Jubilee" (middle buffet)
+BR-Ultra-520DD(rear)
+Ultraspeed Class M30 "Platinum Jubilee" (rear)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
@@ -2108,6 +2786,16 @@ GrassRunway
 Grass Runway
 runway
 Asphalt Runway
+Concrete_Maglev_Track
+Concrete Maglev Track
+Concrete_Maglev_Track_Elevated
+Concrete Maglev Track (elevated)
+Economical_Concrete_Maglev_Track
+Lightweight Concrete Maglev Track
+Economical_Concrete_Maglev_Track_Elevated
+Lightweight Concrete Maglev Track (elevated)
+BrickViaductElevated
+Brick Viaduct Elevated Railway
 #__________________________________stations/stops___________________________________
 #__________________________________stations/stops___________________________________
 BrickPlatformTrainStop
@@ -2121,6 +2809,12 @@ Concrete Platform
 ConcretePlatformBuildingTrainStop
 Concrete Platform with Building
 ConcretePlatformOverallTrainStop
+Concrete Platform with Overroof
+ConcretePlatformMaglevStop
+Concrete Platform
+ConcretePlatformBuildingMaglevStop
+Concrete Platform with Building
+ConcretePlatformOverallMaglevStop
 Concrete Platform with Overroof
 WoodenPlatformTrainStop
 Wooden Platform
@@ -2226,3 +2920,25 @@ CoachStable
 Coaching stable
 AirHangarModern
 Aircraft hangar
+GoodsPlatformMaglevStop
+Maglev Goods Platform
+GoodsPlatformMaglevCrane
+Maglev Goods Platform with Crane
+GoodsPlatformMaglevWarehouse
+Maglev Goods Shed
+#_________________Signals_______________________
+#_________________Signals_______________________
+ATC_signal
+Basic Signal
+ATC_OneWay
+One Way Sign
+ATC_presignal
+Pre-signal
+ATC_Longblock
+Long-block Signal
+ATC_choosesignal
+Choose Signal
+ATC_EndofChooseSignal
+End of Choose Signal Block Sign
+
+

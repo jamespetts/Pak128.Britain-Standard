@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svnroot/simutrans/!svn/ver/178/pak128.Britain/trains/images
+/svnroot/simutrans/!svn/ver/242/pak128.Britain/trains/images
 END
 br-cl87-b.png
 K 25
@@ -86,6 +86,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 75
 /svnroot/simutrans/!svn/ver/178/pak128.Britain/trains/images/mr-spinner.png
+END
+br-423-bg-2.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/simutrans/!svn/ver/242/pak128.Britain/trains/images/br-423-bg-2.png
 END
 lner-gresley-express-tpo.png
 K 25
@@ -219,6 +225,12 @@ svn:wc:ra_dav:version-url
 V 74
 /svnroot/simutrans/!svn/ver/139/pak128.Britain/trains/images/br-370-ic.png
 END
+sr-mn-4-6-2-rebuilt.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/simutrans/!svn/ver/242/pak128.Britain/trains/images/sr-mn-4-6-2-rebuilt.png
+END
 wagon-piece-16t.png
 K 25
 svn:wc:ra_dav:version-url
@@ -284,6 +296,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 74
 /svnroot/simutrans/!svn/ver/139/pak128.Britain/trains/images/jennylind.png
+END
+sr-cc-g.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/simutrans/!svn/ver/242/pak128.Britain/trains/images/sr-cc-g.png
 END
 br-cl55-g.png
 K 25
@@ -458,6 +476,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 74
 /svnroot/simutrans/!svn/ver/139/pak128.Britain/trains/images/br-313-bg.png
+END
+sr-wc-4-6-2.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/simutrans/!svn/ver/242/pak128.Britain/trains/images/sr-wc-4-6-2.png
 END
 br-414-bg.png
 K 25
@@ -703,7 +727,7 @@ wagon-long-20t.png
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/svnroot/simutrans/!svn/ver/178/pak128.Britain/trains/images/wagon-long-20t.png
+/svnroot/simutrans/!svn/ver/230/pak128.Britain/trains/images/wagon-long-20t.png
 END
 gwr-1400-tank.png
 K 25
@@ -993,6 +1017,12 @@ svn:wc:ra_dav:version-url
 V 74
 /svnroot/simutrans/!svn/ver/139/pak128.Britain/trains/images/br-cl86-b.png
 END
+sr-wc-4-6-2-rebuilt.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/simutrans/!svn/ver/242/pak128.Britain/trains/images/sr-wc-4-6-2-rebuilt.png
+END
 lbscr-a1.png
 K 25
 svn:wc:ra_dav:version-url
@@ -1274,6 +1304,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 77
 /svnroot/simutrans/!svn/ver/139/pak128.Britain/trains/images/gwr-railcars.png
+END
+br-423-bg-1.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/simutrans/!svn/ver/242/pak128.Britain/trains/images/br-423-bg-1.png
 END
 mr-clerestory.png
 K 25
